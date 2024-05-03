@@ -6,7 +6,11 @@ import signup from './components/signup'
 
 function MyButton() {
   return (
+    <>
     <signup />
+    <h1>Vasanth commit</h1>
+    </>
+    
 
   );
 }
@@ -18,10 +22,7 @@ function App() {
         <button onClick={MyButton()}>signup
         </button>
       </div>
-      <div className='Drawer'>
-        <button onClick={MyButton()}>signup
-        </button>
-      </div>
+
 
 
     </div>
